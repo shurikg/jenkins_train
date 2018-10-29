@@ -59,7 +59,8 @@ for i in "$@"; do
   elif [[ $i == --blackduck.api.token=* ]]; then
     LOGGABLE_SCRIPT_ARGS="$LOGGABLE_SCRIPT_ARGS --blackduck.api.token=<redacted>"
   else
-    LOGGABLE_SCRIPT_ARGS="$LOGGABLE_SCRIPT_ARGS $i"
+    CONVERTED=`echo "${i}" | sed 's/\(.\)=\(.*\)/\1="\2"/g'`
+    LOGGABLE_SCRIPT_ARGS="$LOGGABLE_SCRIPT_ARGS ${CONVERTED}"
   fi
 done
 
