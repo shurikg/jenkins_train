@@ -1,6 +1,6 @@
-Tool,Name,Version,Owner,Type
-Jenkins,jenk01,PMX15,D1,Production
-Jenkins,jenk02,PMX17,D1,Production
-Nexus,nexus01,PMX15,D1,Staging
-Nexus,nexus03,PMX17,C1,Production
-Sonar,sonar01,PMX16,C1,NFT
+Tool,Name,Version,Owner,Type,Remarks
+Jenkins,jenk01,PMX15,D1,Production,Plan upgrade to PMX17 at 19/02/2021
+Jenkins,jenk02,PMX17,D1,Production,Upgraded to PMX17 at 19/01/2020
+Nexus,nexus01,PMX15,D1,Staging,Rollback from PMX17 at 19/02/2020
+Nexus,nexus03,PMX17,C1,Production,
+Sonar,sonar01,PMX16,C1,NFT,Plan upgrade to PMX17 at 10/01/2021
