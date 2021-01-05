@@ -1,0 +1,6 @@
+Tool,Name,Version,Owner,Type
+Jenkins,jenk01,PMX15,D1,Production
+Jenkins,jenk02,PMX17,D1,Production
+Nexus,nexus01,PMX15,D1,Staging
+Nexus,nexus03,PMX17,C1,Production
+Sonar,sonar01,PMX16,C1,NFT
